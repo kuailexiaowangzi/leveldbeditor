@@ -1,0 +1,95 @@
+QWidget
+{
+    color: #000000;
+}
+
+#widgetBackground
+{
+    border-radius: 5px;
+}
+
+#widgetTitleBar
+{
+    background-color: #1E90FF;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-bottom-color: #FFFFFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+QLabel
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#labelTitle
+{
+    color: #FFFFFF;
+    background-color: none;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#labelInfo
+{
+    margin: 10px;
+}
+
+QLineEdit
+{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#lineEditDirectory
+{
+    margin-right: 0px;
+}
+
+QPushButton
+{
+    color: #FFFFFF;
+    background-color: #1E90FF;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+QPushButton:hover
+{
+    background-color: #4169E1;
+}
+
+#pushButtonClose
+{
+    width: 30px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#pushButtonClose:hover,
+#pushButtonClose:checked
+{
+    background-color: #FF6347;
+}
+
+#pushButtonOk,
+#pushButtonCancel
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+QRadioButton
+{
+    margin-top: 10px;
+}
