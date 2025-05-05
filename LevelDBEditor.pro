@@ -84,7 +84,7 @@ win {
     LIBS += -lUser32
 }
 
-unix|win32: LIBS += \
+LIBS += \
     -L$$PWD/lib/ -lleveldb
 
 INCLUDEPATH += \
